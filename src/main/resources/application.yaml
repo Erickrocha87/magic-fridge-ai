@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: MagicFridgeAi
+
+  datasource:
+    url: jdbc:postgresql://localhost:5431/magicfridge
+    password: postgres
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+
+  flyway:
+    enabled: true
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
+  ai:
+    openai:
+      api-key: ${API_KEY}
+
+chatgpt:
+    api:
+      url: https://api.openai.com/v1/chat/completions
