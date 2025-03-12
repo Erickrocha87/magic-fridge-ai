@@ -4,6 +4,7 @@ import com.rocha.MagicFridgeAi.entity.Food;
 import com.rocha.MagicFridgeAi.services.ChatGptService;
 import com.rocha.MagicFridgeAi.services.FoodService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
