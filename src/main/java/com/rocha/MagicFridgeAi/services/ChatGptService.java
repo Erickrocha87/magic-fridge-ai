@@ -30,6 +30,13 @@ public class ChatGptService {
 
         System.out.println("teste");
 
+        System.out.println("Testes testado ");
+
+
+
+
+
+        List<String> fruitas = ["fruita", "fruitinha", "fruitao"];
 
         promptTemplate.add(prompt, foods);
         return this.chatClient.call(promptTemplate.create()).getResult().getOutput().getText();
