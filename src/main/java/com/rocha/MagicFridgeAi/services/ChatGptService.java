@@ -36,7 +36,7 @@ public class ChatGptService {
 
 
 
-        List<String> fruitas = ["fruita", "fruitinha", "fruitao"];
+        List<String> fruitas1123 = ["fruita", "fruitinha", "fruitao"];
 
         List<String> fruitasAzedas= ["ta", "fruitinha", "fruitao"];
 
