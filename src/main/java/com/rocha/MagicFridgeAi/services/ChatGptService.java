@@ -27,6 +27,10 @@ public class ChatGptService {
         PromptTemplate promptTemplate = new PromptTemplate("""      
                     are a kitchen assistant who creates recipes"
         """);
+
+        System.out.println("teste");
+
+
         promptTemplate.add(prompt, foods);
         return this.chatClient.call(promptTemplate.create()).getResult().getOutput().getText();
     }
